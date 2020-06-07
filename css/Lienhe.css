@@ -1,0 +1,115 @@
+.header-nav{
+    background-image: url('../images/Lien-he_bgNav.png') !important;
+    font-size: 20px;
+}
+/*main__banner*/
+.main__banner{
+    background-image: url('../images/Lien-he_bgtest_01.png') !important;
+    background-repeat: no-repeat;
+    height: 4em !important;
+    font-size: 20px;
+}
+.main__banner__text{
+    width: 8em;
+    line-height: 1em;
+    padding-top: 0.5em !important;
+}
+.main__banner__text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: white;
+}
+.main__banner__text span{
+    font-size: 1.8em;
+    color: white;
+}
+/*****/
+/*main__form*/
+.main__form{
+    font-size: 16px;
+
+    background-image: url('../images/Lien-he_bgtestem_02.png');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    height: 50em !important;
+}
+.main__form__lienhe{
+    width: 50%;
+    float: right;
+    margin-top: 1em;
+}
+.main__form__lienhe__text{
+    text-align: center;
+}
+.main__form__lienhe__text h3{
+    font-weight: bold;
+    font-size: 2em;
+}
+.main__form__lienhe__text p{
+    font-size: 1em;
+}
+.main__form__lienhe__regis___ip{
+    margin-top: 2em !important;
+}
+.main__form__lienhe__regis__hoten input{
+    width: 100%;
+}
+.main__form__lienhe__regis__phone-mail input, 
+select,textarea{
+    width: 100%;
+}
+.main__form__lienhe__regis__hoten input,
+.main__form__lienhe__regis__phone-mail input,
+.main__form__lienhe__regis__select select{
+    padding: 0.6em;
+}
+.main__form__lienhe__regis__hoten,
+.main__form__lienhe__regis__phone-mail,
+.main__form__lienhe__regis__select,
+.main__form__lienhe__regis___area,
+.main__form__lienhe__regis__submit{
+    margin-top: 1.5em;
+}
+.main__form__lienhe__regis__hoten input,
+.main__form__lienhe__regis__phone-mail input,
+.main__form__lienhe__regis__select select,
+.main__form__lienhe__regis___area textarea{
+    background-color: #f3f3f3;
+    border: none;
+}
+.main__form__lienhe__regis__submit{
+    text-align: center;
+}
+.main__form__lienhe__regis__submit input{
+    padding: 0.3em 3em 0.3em 3em;
+    border: none;
+}
+.main__form__lienhe__regis__submit input[type=submit]{
+    color: white;
+    font-weight: bold;
+    background-color: #f59f00;
+    outline: none;
+    transition: padding 0.2s ease-in;
+}
+.main__form__lienhe__regis__submit input[type=submit]:hover{
+    padding: 0.5em 3.2em 0.5em 3.2em;
+}
+/*media*/
+@media screen and (max-width:774px){
+    .main__form__lienhe{
+        width: 70%;
+    }
+    .main__form{
+        font-size: 14px;
+        margin-top: -1px;
+    }
+    .main__banner{
+        height: 2.9em !important;
+    }
+}
+@media screen and (max-width: 993px){
+    .header-nav .header-nav__menu-list{
+        display: none !important;
+    }
+}

@@ -1,0 +1,14 @@
+.main__banner{
+    background-image: url('../images/TIn-tuc_bannerr1.png') !important;
+}
+.main__tt{
+    background-color: #f1f1f1;
+}
+.footer{
+    background-image: url('../images/TIn-tuc_footer1.png') !important;
+}
+.main__dv__text img{
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}

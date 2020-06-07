@@ -1,0 +1,124 @@
+.header__wrap{
+    background-color: #252525;
+    font-size: 16px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+}
+.header__wrap__logo span{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.header__wrap__right{
+    display: flex;
+    flex-direction: row;
+}
+.header__wrap__right__drop{
+    color: white;
+    position: relative;
+}
+.header__wrap__right__drop__user a{
+    color: white;
+}
+.header__wrap__right__drop__user a:hover{
+    text-decoration: none;
+    color: white;
+}
+.header__wrap__right__drop__dow{
+    background-color:white;
+    right: -50%;
+    margin-top: 1.5em;
+    width: 13em;
+    border: 3px solid rgb(137, 137, 137,0.1);
+    padding: 1em;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 0;
+    display: none;
+    /* box-shadow: 3px 3px 3px 2px gray; */
+} 
+.header__wrap__right__drop #sticker{
+    position: absolute;
+    margin-top: 0.7em;
+    z-index: 1;
+    display: none;
+}
+.header__wrap__right__drop__dow__tb1{
+   border-bottom: 1px solid #AAAAAA;
+}
+.header__wrap__right__drop__dow__tb1 a{
+    margin-right: 1em;
+    color: black;
+    text-decoration: none;
+}
+.header__wrap__right__drop__dow__tb2 a{
+    margin-right: 4em;
+    color: black;
+}
+.header__wrap__right__icon{
+    margin-right: 1em;
+}
+.header__wrap__right__icon .ig{
+    margin-right: 1em;
+}
+.header__wrap__right__icon img{
+    width: 1.5em;
+}
+.header__wrap__right__drop__dow a:hover{
+    text-decoration: none;
+}
+/*Main_user*/
+.main__user{
+    font-size: 20px;
+    width: 100%;
+    padding: 2em 0em 2em 0em;
+}
+.main__user__wrap{
+    margin: auto;
+    width: 40%;
+}
+.main__user__wrap__img,
+.main__user__wrap__name,
+.main__user__wrap__name,
+.main__user__wrap__caidat{
+    text-align: center;
+}
+.main__user__wrap__img img{
+    width: 7em;
+}
+.main__user__wrap__name
+.main__user__wrap span{
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+/*Main__icon*/
+.main__icon{
+    font-size: 20px;
+}
+.main__icon__img img{
+    width: 6em;
+    transition: margin-top 0.2s ease-in;
+}
+.main__icon__text{
+    text-align: center;
+    color: black;
+    font-size: 1em;
+}
+.main__icon a:hover{
+    text-decoration: none;
+}
+.main__icon a:hover .main__icon__img img{
+    margin-top: -1em;
+}
+/*Main user*/
+.main__user__wrap__caidat a:hover{
+    text-decoration: none;
+}
+/*Footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10em;
+}
